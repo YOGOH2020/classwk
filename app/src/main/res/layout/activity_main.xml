@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#B1BA6C"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="#112070"
+        android:textSize="40sp"
+        android:id="@+id/tvIntroduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction" />
+
+    <TextView
+        android:fontFamily="cursive"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Android Studio Programming; a programming language used for creating and editing robust mobile applications. Android uses XML as the front-end and Java/Kotlin programming language as the back-end." />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Page" />
+</LinearLayout>

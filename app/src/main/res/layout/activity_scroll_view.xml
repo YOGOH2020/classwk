@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="#A0AEBC" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrollViewActivity">
+
+    <TextView
+        android:textColor="#101A50"
+        android:textAlignment="center"
+        android:textSize="70sp"
+        android:id="@+id/tvScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my ScrollView Activity. This is where the fun starts in Android. Android is a Programming language used for developing robust mobile applications that can run on any android device." />
+
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnNextPage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</ScrollView>
